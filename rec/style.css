@@ -1,0 +1,12 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+.Button-1 {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #ff4240;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+}
