@@ -24,3 +24,10 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+
+.cbb{ 
+  border-bottom: 1px dashed rgba(19, 19, 24, 0.20);
+}
+.cbt{
+  border-top: 1px dashed rgba(19, 19, 24, 0.20);
+}
