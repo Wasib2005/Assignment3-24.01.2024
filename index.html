@@ -8,7 +8,7 @@
 
     <!-- daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    
+
     <!-- tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -23,43 +23,134 @@
 
 </head>
 
-<body class="text-black m-auto lg:max-w-[1440px] p-3 pb-0  lg:pt-14 ">
+<body class="text-zinc-600 m-auto lg:max-w-[1440px] p-3 pb-0  lg:pt-14 ">
 
-    <header>
+    <header class="p-36">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a><span class="text-orange-600">Home</span></a></li>
+                            <li><a>
+                                    <p>About</p>
+                                </a></li>
+                            <li><a>
+                                    <p>Pages</p>
+                                </a></li>
+                            <li><a>
+                                    <p>Blog</p>
+                                </a></li>
+                            <li><a>
+                                    <p>Contact</p>
+                                </a></li>
+                        </ul>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a><span class="text-orange-600">Home</span></a></li>
-                      <li><a>About</a></li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
-                    </ul>
-                  </div>
-                  <a class="text-4xl font-extrabold">Hockey<span class="text-orange-600">’</span>s</a>
+                    <a class="text-4xl font-extrabold">
+                        <h1>Hockey<span class="text-orange-600">’</span>s</h1>
+                    </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a><span class="text-orange-600">Home</span></a></li>
-                      <li><a>About</a></li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a><span class="text-orange-600">Home</span></a></li>
+                        <li><a>
+                                <p>About</p>
+                            </a></li>
+                        <li><a>
+                                <p>Pages</p>
+                            </a></li>
+                        <li><a>
+                                <p>Blog</p>
+                            </a></li>
+                        <li><a>
+                                <p>Contact</p>
+                            </a></li>
+                    </ul>
                 </div>
                 <div class="navbar-end">
                     <img src="rec/img/search.png" alt="" class="hidden lg:inline">
-                  <a><button class="Button-1 ml-6">Button</button></a>
+                    <a><button class="Button-1 ml-6">Button</button></a>
                 </div>
-              </div>
+            </div>
         </nav>
 
-    
+        <!-- banners -->
+        <section class="max-w-[1170px] pt-7 lg:pt-14">
+
+            <!-- slides for display big -->
+            <div class="hidden lg:inline">
+                <div class="carousel w-full relative">
+                    <!-- 1 -->
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="rec/img/toffee.png" class="w-full" />
+                        <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-[90%]">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                        <!-- Text on Slide 1 -->
+                        <div
+                            class="absolute top-3/4 left-[65%] transform -translate-x-1/2 -translate-y-1/2 text-left bg-black rounded-lg p-8 w-[566px] ">
+                            <h4 class="text-2xl font-bold mb-2">Meet all the heroes from the field</h4>
+                            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                                Purus urna in sit nullam proin.</p>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="rec/img/2.png" class="w-full" />
+                        <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-[90%]">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                        <!-- Text on Slide 1 -->
+                        <div
+                            class="absolute top-3/4 left-[65%] transform -translate-x-1/2 -translate-y-1/2 text-left bg-black rounded-lg p-8 w-[566px] ">
+                            <h4 class="text-2xl font-bold mb-2">Meet all the heroes from the field</h4>
+                            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                                Purus urna in sit nullam proin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- slides for display small -->
+            <div class="inline lg:hidden">
+                <div class="carousel w-full rounded-lg">
+                    <div id="slide-1" class="carousel-item relative w-full ">
+                      <img src="rec/img/toffee2.png" class="w-full" />
+                      <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 top-[80%]">
+                        <a href="#slide-2" class="btn btn-circle">❮</a> 
+                        <a href="#slide-2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide-2" class="carousel-item relative w-full">
+                      <img src="rec/img/2.png" class="w-full" />
+                      <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-1/2 top-[80%]">
+                        <a href="#slide-1" class="btn btn-circle">❮</a> 
+                        <a href="#slide-1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="bg-black p-4 rounded-lg">
+                    <h4 class="text-lg">Meet all the heroes from the field</h4>
+                    <p class="text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                        Purus urna in sit nullam proin.</p>
+                  </div>
+            </div>
+
+
+
+        </section>
+
+
     </header>
 
 

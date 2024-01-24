@@ -1,3 +1,17 @@
+p{
+  color: #424247;
+}
+
+h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+h1{
+    color: black;
+}
+
 body {
   font-family: "Manrope", sans-serif;
 }
