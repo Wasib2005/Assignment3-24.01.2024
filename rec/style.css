@@ -1,4 +1,4 @@
-p{
+p {
   color: #424247;
 }
 
@@ -8,8 +8,8 @@ h4 {
   font-weight: 800;
 }
 
-h1{
-    color: black;
+h1 {
+  color: black;
 }
 
 body {
@@ -34,24 +34,28 @@ body {
   font-weight: 700;
 }
 
-.cbb{ 
-  border-bottom: 1px dashed rgba(19, 19, 24, 0.20);
+.cbb {
+  border-bottom: 1px dashed rgba(19, 19, 24, 0.2);
 }
-.cbt{
-  border-top: 1px dashed rgba(19, 19, 24, 0.20);
+.cbt {
+  border-top: 1px dashed rgba(19, 19, 24, 0.2);
 }
-.items-left{
+.items-left {
   align-items: left;
 }
-.b-line{
+.b-line {
   border-radius: none;
-  border-bottom: 1px solid rgba(19, 19, 24, 0.20);
+  border-bottom: 1px solid rgba(19, 19, 24, 0.2);
 }
 
-.tc1{
-  color: rgba(19, 19, 24, 0.40);
+.tc1 {
+  color: rgba(19, 19, 24, 0.4);
 }
 
-.ibox{
-  
+.i-box {
+  width: 324px;
+  height: 64px;
+  border-radius: 12px;
+  background: rgba(19, 19, 24, 0.03);
+  padding: 21px 20px;
 }
