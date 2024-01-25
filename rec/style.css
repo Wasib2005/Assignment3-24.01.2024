@@ -59,4 +59,9 @@ body {
   background: rgba(19, 19, 24, 0.03);
   padding: 21px 20px;
 }
-
+.i-box-1{
+  height: 64px;
+  border-radius: 12px;
+  background: rgba(19, 19, 24, 0.03);
+  padding: 21px 20px;
+}
